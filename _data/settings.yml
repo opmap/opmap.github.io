@@ -1,8 +1,8 @@
-title:  Lagrange
-tagline:  a minimalist Jekyll theme
+title:  OpMap
+tagline:  tool for analyzing large debates
 author:
-  name: 'Paul Le'
-  twitter:  paululele
+  name: 'Tamara Mchedlidze'
+  mail:  opinionspacemap@gmail.com
 
 # Change to true for Disqus comments
 disqus:
@@ -13,7 +13,6 @@ google-ID: 'UA-80213386-1'
 
 menu:
 - {name: 'About', url: 'about.html'}
-- {name: 'Writing', url: 'writing.html'}
 - {name: 'Contact', url: 'contact.html'}
 
 social:
