@@ -6,3 +6,10 @@ title: Hank Quinlan, Horrible Cop
 	<h1>Hi there, I am OpMap!</h1>
 	<p>I'm best known from all opinion maps <em>A Touch of Evil</em> Trust me. <a href="/about">Read more about my life...</a></p>
 </div><!-- /.blurb -->
+<h1>{{ Press }}</h1>
+	<ul class="press">
+
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
