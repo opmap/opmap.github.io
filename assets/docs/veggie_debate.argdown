@@ -1,0 +1,489 @@
+% Veggie-Debatte
+%
+%
+
+# Zentrale Thesen
+
+<!--
+  Folgende Thesen beantworten die Frage:
+  Was darf man essen?
+-->
+
+[Fleisch-OK]: Es gibt Fleisch und Tierprodukte, die man essen darf.
+
+[Alles-Esser]: Man darf Fleisch und tierische Produkte beliebiger Art essen.
+
+[Bio-Fleisch]: Man darf Fleisch und tierische Produkte aus artgerechter, ökologischer Tierhaltung essen, aber auch nur solche.
+
+[Keine-Massentierhaltung]: Man sollte kein Fleisch aus moderner Tierzucht und Massentierhaltung essen.
+
+[Strikt-Veggie]: Man sollte kein Fleisch essen.
+
+[Strikt-Vegan]: Man sollte keine tierischen Produkte essen.
+
+<!--
+  Folgende Thesen beantworten die Frage:
+  Wieviel davon darf man essen?
+-->
+
+[Weniger-Fleisch]: Man sollte den Konsum von Fleisch möglichst reduzieren (z.B. nur einmal pro Woche Fleisch essen).
+
+[Weniger-Tier]: Man sollte den Konsum tierischer Produkte möglichst reduzieren (z.B. Soja- statt Kuhmilch trinken).
+
+
+# Beziehungen zwischen den zentralen Thesen
+
+<!--
+Visualize relations between central theses as chord diagram
+-->
+
+[Fleisch-OK]
+  <+  [Alles-Esser]
+  <+  [Bio-Fleisch]
+  <-  [Strikt-Veggie]
+  ->  [Strikt-Veggie]
+
+[Alles-Esser]
+  -> [Bio-Fleisch]
+    +> [Keine-Massentierhaltung]
+  -> [Keine-Massentierhaltung]
+
+[Strikt-Vegan]
+  +> [Strikt-Veggie]
+
+[Weniger-Tier]
+  +> [Weniger-Fleisch]
+
+[Strikt-Vegan]
+  -> [Weniger-Tier]
+
+[Strikt-Veggie]
+  -> [Weniger-Fleisch]
+
+
+  <!--
+  Visualize reasons in wheel of reasons (sunburst)! Pro/con color changes depending on central thesis selected!
+    1. layer: argument groups
+    2. layer: arguments pro/con theses
+    3. layer: arguments pro/con 2nd layer arguments
+    4. layer: ...
+  -->
+
+# Wichtige, themenübergreifende Argumente
+
+<Einzelne-unerheblich-Einwand>: Durch Produktverzicht ändert der Einzelne nichts an bestehenden Erzeugungsweisen. Und nur dann wären Handlungsänderungen geboten.
+
+
+### Kulinarische Erwägungen
+
+Die folgenden vier kulinarischen Argumente sprechen dafür, dass es zulässig ist, Fleisch zu essen, oder, mit anderen Worten, sprechen gegen eine rein vegetarische Küche.
+
+[Fleisch-OK]
+  + <Fleischküche ist Kulturerbe>
+  + <Genusserlebnis-Argument>
+  + <Argument aus der Vielfalt>
+  + <Vegetarisch kochen schwierig>
+
+Die Argumente im Einzelnen.
+
+<Fleischküche ist Kulturerbe>: Der Verzicht auf Fleisch und/oder tierische Produkte würde das Ende einer jahrundertealten, kulturellen Tradition -- der Kochkunst -- bedeuten.
+
+  (1) Der Verzicht auf Fleisch und/oder tierische Produkte würde das Ende einer jahrundertealten, kulturellen Tradition und den Verlust eines Weltkulturerbes -- der Kochkunst -- bedeuten.
+    + Die französische Küche ist z.B. UNESCO-Weltkulturerbe.
+  (2) Das Ende einer jahrundertealten, kulturellen Tradition und der Verlust eines Weltkulturerbes sind inakzeptabel.
+  (3) Was inakzeptable Folgen hat, ist nicht geboten.
+  ----
+  (4) [Fleisch-OK]: Mit Fleisch darf gekocht werden.
+
+
+<Genusserlebnis-Argument>: Der Verzicht auf Fleisch und/oder tierische Produkte bedeutete einen Verlust zahlreicher intensiver Genusserlebnisse; die Lust aufs und am Essen -- eine elementare Glückserfahrung des Menschen -- ginge verloren; statt zu kosten, zu genießen und zu schlemmen würde sich nur noch ernährt.
+
+  (1) Der Verzicht auf Fleisch und/oder tierische Produkte bedeutete einen Verlust zahlreicher intensiver Genusserlebnisse: die Lust aufs und am Essen -- eine elementare Glückserfahrung des Menschen -- ginge verloren; statt zu kosten, zu genießen und zu schlemmen würde sich nur noch ernährt.
+    - Die vegetarische, wenn nicht gar vegane Küche hat -- global gesehen -- eine lange Tradition und steht geschmacklich der Fleisch-Küche in nichts nach.
+  (2) Der Verlust zahlreicher intensiver Genusserlebnisse und einer elementaren Glückserfahrung des Menschen ist inakzeptabel.
+  (3) Was inakzeptable Folgen hat, ist nicht geboten.
+  ----
+  (4) [Fleisch-OK]: Mit Fleisch darf gekocht werden.
+
+
+<Argument aus der Vielfalt>: Der Verzicht auf Fleisch und/oder tierische Produkte reduziert die Vielfalt von Gerichten und Speisen in inakzeptabler Weise.
+
+  (1) Der Verzicht auf Fleisch und/oder tierische Produkte reduziert die Vielfalt von Gerichten und Speisen in drastisch Weise.
+    - [Vegetarische Vielfalt]: Die vegetarische, wenn nicht gar vegane Küche weisen eine ähnlich große Vielfalt an Speisen auf wie die Fleisch-Küche.
+  (2) Eine drastische Reduktion der Vielfalt von Gerichten und Speisen ist inakzeptabel, vorausgesetzt eine akzeptable Ernährung muss auch kulinarischen Standards genügen.
+  (3) [Kulinarische Standards]: Eine akzeptable Ernährung muss auch kulinarischen Standards genügen.
+  (4) Was inakzeptable Folgen hat, ist nicht geboten.
+  ----
+  (5) [Fleisch-OK]: Mit Fleisch darf gekocht werden.
+
+
+<Vegetarisch kochen schwierig>: Viele Personen können schlicht nicht geschmacklich akzeptabel vegetarisch kochen, und dies zu lernen wäre für sie -- angesichts beruflicher und privater Verpflichtungen -- mit immensen Kosten verbunden.
+
+  (1) Der Verzicht auf Fleisch und/oder tierische Produkte bedeutete, dass viele Personen erst lernen müssten, geschmacklich akzeptabel vegetarisch zu kochen.<!--M.a.W.: Verzicht auf Fleisch führt dazu, dass sie Kochen neu lernen oder sich geschmacklich schlecht ernähren.-->
+  (2) Angesichts beruflicher und privater Verpflichtungen ist das Kochen (neu) zu erlernen mit immensen, letztlich inakzeptablen Kosten verbunden.
+  (3) [Kulinarische Standards]: Eine akzeptable Ernährung muss auch kulinarischen Standards genügen, d.h. geschmacklich akzeptabel sein.
+  (4) Was inakzeptable Folgen hat (insbesondere zu inakzeptablen Kosten oder einer inakzeptablen Ernährung führt), ist nicht geboten.
+  ----
+  (5) [Fleisch-OK]: Mit Fleisch darf gekocht werden.
+
+
+### Gesundheitliche Erwägungen
+
+Drei Argumente sprechen für Fleischkonsum.
+
+[Fleisch-OK]
+  + <Vitalitäts-Argument>
+  + <Ernährungsmangel-Einwand>
+  + <Gesund kochen schwierig>
+
+Die Argumente im Detail.
+
+<Vitalitäts-Argument>: Viele Menschen fühlen sich körperlich besser (vitaler, fitter), wenn sie regelmäßig Fleisch essen.
+
+  (1) Viele Menschen fühlen sich körperlich besser (vitaler, fitter), wenn sie regelmäßig Fleisch essen.
+  (2) Körperliches Wohlbefinden ist ein Gut, das schwerer wiegt, als mögliche Einwände gegen das Fleischessen.
+  (3) Steigert eine Handlung ein Gut, das schwerer wiegt als mögliche Einwände gegen die Handlung, so ist die Handlung zulässig.
+  ----
+  (4) [Fleisch-OK]: Es gibt Fleisch und Tierprodukte, die man essen darf.
+
+<Ernährungsmangel-Einwand>: Fleisch ist Teil einer ausgewogenen Ernährung: ohne Fleischkonsum drohen Mangelerscheinungen und gesundheitliche Beeinträchtigung.
+
+  (1) Bei einem Verzicht auf Fleisch und/oder tierische Produkte drohen Mangelerscheinungen und gesundheitliche Beeinträchtigung.
+    - Eine abwechslungsreiche vegetarische (vegane) Ernährung ist gesundheitlich unbedenklich (zumal wenn sie durch Nahrungsergänzungsmittel komplettiert wird).
+  (2) [Mangelerscheinungen inakzeptabel]: Drohende Mangelerscheinungen und gesundheitliche Beeinträchtigung sind inakzeptabel.
+  (3) Was inakzeptable Folgen hat, ist nicht geboten.
+  ----
+  (4) [Fleisch-OK]: Es gibt Fleisch und Tierprodukte, die man essen darf.
+
+
+<Gesund kochen schwierig>: Viele Personen können sich schlicht nicht vegetarisch (geschweige denn vegan) gesund ernähren und dies zu lernen wäre für sie -- angesichts beruflicher und privater Verpflichtungen -- mit immensen Kosten verbunden.
+
+  (1) Der Verzicht auf Fleisch und/oder tierische Produkte bedeutete, dass viele Personen erst lernen müssten, sich gesund vegetarisch zu ernähren.<!--M.a.W.: Verzicht auf Fleisch führt dazu, dass sie Kochen neu lernen oder sich  ungesund ernähren.-->
+  (2) Angesichts beruflicher und privater Verpflichtungen ist das Kochen (neu) zu erlernen mit immensen, letztlich inakzeptablen Kosten verbunden.
+  (3) Bei ungesunder Ernährung drohen Mangelerscheinungen und gesundheitliche Beeinträchtigung.
+  (4) [Mangelerscheinungen inakzeptabel]: Drohende Mangelerscheinungen und gesundheitliche Beeinträchtigung sind inakzeptabel.
+  (5) Was inakzeptable Folgen hat (insbesondere zu inakzeptablen Kosten oder einer ungesunden Ernährung führt), ist nicht geboten.
+  ----
+  (6) [Fleisch-OK]: Mit Fleisch darf gekocht werden.
+
+
+Folgende Behauptungen sprechen gegen Fleischkonsum, können aber im Detail auf unterschiedliche Thesen bezogen werden.
+
+[Schlechte-Fette]: Tierische Fette sind gesundheitsschädlich.
+  +> <Keine schlechten Fette>
+    +> [Strikt-Vegan]
+  +> <Weniger schlechte Fette>
+    +> [Weniger-Tier]
+
+[Fleisch-ungesund]: Zu hoher Fleischkonsum ist gesundheitsschädlich.
+  +> <Kein Fleisch, da ungesund>
+    +> [Strikt-Veggie]
+  +> <Weniger Fleisch, da ungesund>
+    +> [Weniger-Fleisch]
+
+Die Argumente im Detail.
+
+<Keine schlechten Fette>: Tierische Fette sind gesundheitsschädlich. Besser, man verzichtet daher gänzlich auf tierische Produkte.
+
+  (1) [Schlechte-Fette]
+  (2) [Null-Ernährungs-Risiko]: Auf Nahrungsmittel, die (bei übermäßigen Verzehr) gesundheitsschädlich sind, sollte man gänzlich verzichten.
+  ----
+  (3) Tierische Fette sollte man nicht verzehren.
+  (4) Man kann nur dann keine tierischen Fette verzehren, wenn man keine Tierprodukte isst.
+  ----
+  (5) [Strikt-Vegan]: Man sollte keine tierischen Produkte essen.
+
+
+<Weniger schlechte Fette>: Tierische Fette sind gesundheitsschädlich. Daher sollte man möglichst wenig davon essen.
+
+  (1) [Schlechte-Fette]
+  (2) [Ernährungs-Risiko-reduzieren]: Den Konsum von Nahrungsmittel, die (bei übermäßigen Verzehr) gesundheitsschädlich sind, sollte man möglichst reduzieren.
+  ----
+  (3) Den Konsum tierische Fette sollte man möglichst reduzieren.
+  (4) Man kann den Konsum tierischer Fette nur dann reduzieren, wenn man den Konsum von Tierprodukte reduziert.
+  ----
+  (5) [Weniger-Tier]: Man sollte den Konsum tierischer Produkte möglichst reduzieren (z.B. Soja- statt Kuhmilch trinken).
+
+
+<Kein Fleisch, da ungesund>: Zu hoher Fleischkonsum ist gesundheitsschädlich. Sicherheitshalber verzichtet man gleich ganz darauf.
+
+  (1) [Fleisch-ungesund]
+  (2) [Null-Ernährungs-Risiko]
+  ----
+  (3) [Strikt-Veggie]: Fleisch sollte man nicht verzehren.
+
+
+<Weniger Fleisch, da ungesund>: Zu hoher Fleischkonsum ist gesundheitsschädlich. Daher sollte man möglichst wenig Fleisch essen.
+
+  (1) [Fleisch-ungesund]
+  (2) [Ernährungs-Risiko-reduzieren]
+  ----
+  (3) [Weniger-Fleisch]
+
+
+
+### Finanzielle Erwägungen
+
+
+Gegen Bio-Fleisch wird anchmal so argumentiert:
+
+[Bio-Fleisch]
+  - <Bio nur für Reiche>: Bio-Produkte, insbesondere Tierprodukte aus nachhaltiger Landwirtschaft können sich viele Personen nicht leisten. Bio ist nur was für Reiche.
+    - <Ernährungsumstellung zumutbar>: Steigende Ernährungskosten sind nicht inakzeptabel, das es zumutbar und realistisch ist, dass Haushalte ihren Speiseplan umstellen (und z.B. weniger Fleisch essen).
+      - <Fleischverzicht unzumutbar>: Wenn jeder essen darf, was er will, dann ist ein Fleischverzicht unzumutbar.
+        + [Alles-Esser]
+
+
+Die Argumente im Detail:
+
+<Bio nur für Reiche>
+
+  (1) Der Verzicht auf konventionell erzeugtes Fleisch zugunsten von Bio-Fleisch würde für viele Haushalte die Nahrungsmittelkosten derart in die Höhe treiben, dass sie sich ihre bisherige Ernährung nicht mehr leisten könnten.
+  (2) Dass viele Haushalte ihre bisherige Ernährung nicht mehr finanzieren können, ist inakzeptabel.
+  (3) Was inakzepable Folgen hat, ist nicht geboten.
+  ----
+  (4) Es ist nicht geboten, zugunsten von Bio-Fleisch auf konventionell erzeugtes Fleisch zu verzichten.
+  (5) Wenn es nicht geboten ist, zugunsten von Bio-Fleisch auf konventionell erzeugtes Fleisch zu verzichten, dann ist es auch falsch, dass man Fleisch und tierische Produkte aus artgerechter, ökologischer Tierhaltung, aber auch nur solche, essen darf.
+  ----
+  (6) Es ist falsch, dass man Fleisch und tierische Produkte aus artgerechter, ökologischer Tierhaltung, aber auch nur solche, essen darf.
+    -> [Bio-Fleisch]
+
+<Ernährungsumstellung zumutbar>
+
+  (1) Der Verzicht auf konventionelles Fleisch führt nicht  dazu, dass die Ernährungskosten steigen, vorausgesetzt Haushalte passen ihren Speiseplan an (und essen zum Beispiel weniger Fleisch).
+  (2) Es ist zumutbar und realistisch, dass Haushalte ihren Speiseplan anpassen (und zum Beispiel weniger Fleisch essen).
+  (3) Führt A dann nicht zu B, wenn C, und ist C ferner zumutbar und realistisch, dann führt A nicht (zwangsläufig) zu B.
+  ----
+  (4) Es ist nicht der Fall, dass der Verzicht auf konventionell erzeugtes Fleisch zugunsten von Bio-Fleisch für viele Haushalte die Nahrungsmittelkosten derart in die Höhe treiben würde, dass sie sich ihre bisherige Ernährung nicht mehr leisten könnten.
+    -> <Bio nur für Reiche>
+    <!--[1]-->
+
+<Fleischverzicht unzumutbar>
+
+  (1) [Alles-Esser]
+  (2) Wenn man Fleisch und Tierprodukte beliebiger Art (und Menge) essen darf, dann ist es unzumutbar, darauf zu verzichten.
+  ----
+  (3) Es ist unzumutbar, dass Haushalte ihren Speiseplan anpassen (und zum Beispiel weniger Fleisch essen).
+    -> <Ernährungsumstellung zumutbar>
+    <!--[2]-->
+
+
+<!-- Contra @[Strikt-Veggie] und @[Weniger-Fleisch]-->
+
+<Gutes Veggie-Essen teuer>: Die Zutaten für ansprechende vegetarische Gerichte (z.B. Mandelmus, Sesamöl, Cashewkerne) sind teuer, zahlreiche Personen können sich diese nicht leisten. Wenn man nicht nur Kartoffel-Möhren-Suppe essen will, wird Veggie-Essen schnell für viele unbezahlbar.
+
+  (1) Der Verzicht auf Fleisch und/oder tierische Produkte bedeutete, dass man regelmäßig teure Zutataten kaufen oder aber sich geschmacklich inakzeptabel ernähren müsste.
+    -  [Vegetarische Vielfalt]: Es gibt viele gute, abwechslungsreiche und zugleich günstige vegetarische Gerichte.
+  (2) Angesichts vieler knapper Haushaltskassen ist es inakzeptabel, sich regelmäßig teure Zutaten zu kaufen.
+  (3) [Kulinarische Standards]: Eine akzeptable Ernährung muss auch kulinarischen Standards genügen, d.h. geschmacklich akzeptabel sein.
+  (4) Was inakzeptable Folgen hat (insbesondere zu inakzeptablen Kosten oder einer inakzeptablen Ernährung führt), ist nicht geboten.
+  ----
+  (5) [Fleisch-OK]: Mit Fleisch darf gekocht werden.
+
+
+
+### Natürlichkeits-Erwägungen
+
+Das für Natürlichkeits-Erwägungen charakteristische Prinzip lautet:
+
+[Natürlichkeitsprinzip]: Das, was natürlich ist, ist gut und zulässig, das Unnatürliche ist schlecht und unzulässig.
+
+Es wird in allen drei Argumenten unterstellt.
+
+<Menschheitsgeschichte>: Menschen haben schon immer Tiere gejagt, gehalten und getötet, um sie zu essen und zu verwerten.
+
+  (1) Menschen haben schon immer Tiere gejagt, gehalten und getötet, um sie zu essen und zu verwerten.
+  (2) Das, was menschheitsgeschichtlich schon immer der Fall war, ist natürlich.
+  ----
+  (3) Es ist natürlich, dass Menschen Tiere jagen, halten und töten, um sie zu essen und zu verwerten.
+  (4) [Natürlichkeitsprinzip]
+  ----
+  (5) [Fleisch-OK]
+
+<Natürliche Nahrungsketten>: Es ist ganz natürlich, dass Tiere gejagt und getötet werden -- nicht nur Menschen, auch Tiere tun das.
+
+  (1) In freier Wildbahn jagen, töten und fressen Tiere andere Tiere.
+  (2) Das, was Tieren in freier Wildbahn widerfährt, ist natürlich.
+  ----
+  (3) Es ist natürlich, dass Tiere gejagt, getötet und gefressen werden.
+  (4) [Natürlichkeitsprinzip]
+  ----
+  (5) [Fleisch-OK]
+
+
+<Massentierhaltung unnatürlich>: Moderne Tierzucht und Massentierhaltung sind unnatürlich: ohne Präzedens in der Menschheitsgeschichte und wider die Natur der Tiere.
+
+  (1) Moderne Tierzucht und Massentierhaltung sind unnatürlich: ohne Präzedens in der Menschheitsgeschichte und wider die Natur der Tiere.
+  (2) [Natürlichkeitsprinzip]
+  ----
+  (3) Moderne Tierzucht und Massentierhaltung sind unzulässig.
+  (4) Man sollte keine Produkte, die auf unzulässige Weise erzeugt wurden, konsumieren.
+    - <Einzelne-unerheblich-Einwand>: Durch Produktverzicht ändert der Einzelne nichts an bestehenden Erzeugungsweisen. Und nur dann wären Handlungsänderungen geboten.
+  ----
+  (5) [Keine-Massentierhaltung]: Man sollte kein Fleisch aus moderner Tierzucht und Massentierhaltung konsumieren.
+    -> [Alles-Esser]
+
+
+
+### Klimaschutz-Erwägungen
+
+<Klimaargument-1>: Tierhaltung verursacht direkt und indirekt (über Flächennutzung, Energiebedarf, Verdauungsgase) erhebliche Mengen an Treibhausgasen, die auf Null reduziert werden müssen, um ambitionierte Klimaziele (z.B. das 2-Grad-Ziel) einzuhalten.
+
+  (1) Tierhaltung verursacht direkt und indirekt (über Flächennutzung, Energiebedarf, Verdauungsgase) erhebliche Mengen an Treibhausgasen, die auf Null reduziert werden müssen, falls ambitionierte Klimaziele (z.B. das 2-Grad-Ziel) eingehalten werden sollen.
+  (2) [Ambitionierte-Klimaziele]: Ambitionierte Klimaziele (z.B. das 2-Grad-Ziel) sollen eingehalten werden.
+  ----
+  (3) Treibhausgasemissionen aus Tierhaltung sollen auf Null reduziert werden.
+  (4) Treibhausgasemissionen aus Tierhaltung können nur dann völlig vermieden werden, wenn niemand mehr Tierprodukte konsumiert.
+  (5) Wenn es geboten ist, dass niemand mehr Tierprodukte konsumiert, dann sollte man keine tierischen Produkte essen.
+    -  <Einzelne-unerheblich-Einwand>: Ob ein Einzelner Fleisch isst oder nicht, ändert nichts an den systemischen Folgen moderner Massentierhaltung. Und nur dann wären Handlungsänderungen geboten.
+  ----
+  (6) [Strikt-Vegan]
+
+
+<Klimaargument-2>: Tierhaltung verursacht direkt und indirekt (über Flächennutzung, Energiebedarf, Verdauungsgase) erhebliche Mengen an Treibhausgasen, die drastisch reduziert werden müssen, um ambitionierte Klimaziele (z.B. das 2-Grad-Ziel) einzuhalten.
+
+  (1) Tierhaltung verursacht direkt und indirekt (über Flächennutzung, Energiebedarf, Verdauungsgase) erhebliche Mengen an Treibhausgasen, die drastisch reduziert werden müssen, falls ambitionierte Klimaziele (z.B. das 2-Grad-Ziel) eingehalten werden sollen.
+  (2) [Ambitionierte-Klimaziele]: Ambitionierte Klimaziele (z.B. das 2-Grad-Ziel) sollen eingehalten werden.
+  ----
+  (3) Treibhausgasemissionen aus Tierhaltung sollen drastisch reduziert werden.
+  (4) Treibhausgasemissionen aus Tierhaltung können nur dann drastisch reduziert werden, wenn global viel weniger Tierprodukte konsumiert werden.
+  (5) Wenn es geboten ist, dass global viel weniger Tierprodukte konsumiert werden, dann sollte man den Konsum tierischer Produkte möglichst reduzieren.
+    -  <Einzelne-unerheblich-Einwand>: Ob ein Einzelner Fleisch isst oder nicht, ändert nichts an den systemischen Folgen moderner Massentierhaltung. Und nur dann wären Handlungsänderungen geboten.
+  ----
+  (6) [Weniger-Tier]
+
+
+
+<Klimaargument-3>: Tierhaltung verursacht direkt und indirekt (über Flächennutzung, Energiebedarf, Verdauungsgase) erhebliche Mengen an Treibhausgasen, die drastisch reduziert werden müssen, um ambitionierte Klimaziele (z.B. das 2-Grad-Ziel) einzuhalten.
+
+  (1) Tierhaltung verursacht direkt und indirekt (über Flächennutzung, Energiebedarf, Verdauungsgase) erhebliche Mengen an Treibhausgasen, die drastisch reduziert werden müssen, falls ambitionierte Klimaziele (z.B. das 2-Grad-Ziel) eingehalten werden sollen.
+  (2) [Ambitionierte-Klimaziele]: Ambitionierte Klimaziele (z.B. das 2-Grad-Ziel) sollen eingehalten werden.
+  ----
+  (3) Treibhausgasemissionen aus Tierhaltung sollen drastisch reduziert werden.
+  (4) Treibhausgasemissionen aus Tierhaltung können nur dann drastisch reduziert werden, wenn Fleisch global nur auf nachhaltige und artgerechte Weise erzeugt wird.
+  (5) Wenn es geboten ist, dass Fleisch global nur auf nachhaltige und artgerechte Weise erzeugt wird, dann sollte man kein Fleisch aus moderner Tierzucht und Massentierhaltung konsumieren.
+    - <Einzelne-unerheblich-Einwand>: Ob ein Einzelner Fleisch isst oder nicht, ändert nichts an den systemischen Folgen moderner Massentierhaltung. Und nur dann wären Handlungsänderungen geboten.
+  ----
+  (6) [Keine-Massentierhaltung]: Man sollte kein Fleisch aus moderner Tierzucht und Massentierhaltung konsumieren.
+
+
+
+### Natur- und Landschaftsschutz-Erwägungen
+
+
+<Naturzerstörung>: Moderne Massentierhaltung hat einen hohen Flächen- und Energiebedarf und geht mit Monokulturen sowie Überdüngung (Gülle) einher. Damit zerstört sie das Landschaftsbild sowie wertvolle Naturräume und bedroht die heimische Artenvielfalt.
+
+  (1) Moderne Massentierhaltung führt -- aufgrund ihres hohen Flächen- und Energiebedarfs -- zur Zerstörung historischer Landschaftsbilder, wertvoller Naturräume und heimischer Artenvielfalt.
+  (2) Die Zerstörung historischer Landschaftsbilder, wertvoller Naturräume und heimischer Artenvielfalt sind inakzeptabel.
+  (3) Was inakzeptable Folgen hat, ist unzulässig.
+  --aus 1,2,3--
+  (4) Moderne Massentierhaltung ist unzulässig.
+  (5) Man sollte keine Produkte, die auf unzulässige Weise erzeugt wurden, konsumieren.
+    - <Einzelne-unerheblich-Einwand>: Durch Produktverzicht ändert der Einzelne nichts an bestehenden Erzeugungsweisen. Und nur dann wären Handlungsänderungen geboten.
+  --aus 4,5--
+  (6) [Keine-Massentierhaltung]: Man sollte kein Fleisch aus moderner Tierzucht und Massentierhaltung konsumieren.
+
+
+
+### Tierschutz-Erwägungen
+
+<Tierschutz-Argument>: In der modernen Massentierhaltung fristen Tiere ein qualvolles Dasein und werden auf brutale und schmerzvolle Weise getötet. Fleisch-Konsumenten sind für dieses Leid mitverantwortlich.
+
+  (1) Moderne Massentierhaltung führt dazu, dass Tiere, als empfindsame Lebewesen, ein qualvolles Dasein fristen und auf brutale sowie schmerzvolle Weise getötet werden.
+    - Tiere haben kein bewusstes Schmerzempfinden, das dem menschlichen vergleichbar wäre.
+    - In der modernen Massentierhaltung geht es Tieren viel besser, als es viele Schauergeschichten glauben machen wollen.
+  (2) Es ist inakzeptabel, dass empfindsame Lebewesen ein qualvolles Dasein fristen und auf brutale sowie schmerzvolle Weise getötet werden.
+  (3) Was inakzeptable Folgen hat, ist unzulässig.
+  ----
+  (4) Moderne Massentierhaltung ist unzulässig.
+  (5) Man sollte keine Produkte, die auf unzulässige Weise erzeugt wurden, konsumieren.
+    - <Einzelne-unerheblich-Einwand>: Durch Produktverzicht ändert der Einzelne nichts an bestehenden Erzeugungsweisen. Und nur dann wären Handlungsänderungen geboten.
+    - Tierzüchter und -halter, nicht aber die Konsumenten, sind für die Zustände im Stall verantwortlich.
+  ----
+  (6) [Keine-Massentierhaltung]: Man sollte kein Fleisch aus moderner Tierzucht und Massentierhaltung konsumieren.
+
+
+<Recht auf Leben>: Tiere haben ein Recht auf Leben. Es ist moralisch falsch, sie zu töten, um sie zu essen.
+
+  (1) Tiere haben ein Recht auf Leben.
+  (2) Handlungen, die voraussetzen, dass Wesen, welche ein Recht auf Leben haben, getötet werden, sind kategorisch falsch.
+  (3) Fleisch zu essen setzt voraus, dass Tiere getötet werden.
+  ----
+  (4) [Strikt-Veggie]
+
+
+<Artgerechte Tierhaltung Unding>: Selbst in sogenannter artgerechter Tierhaltung, die nur der Herstellung tierischer Produkte (wie Milch und Eier) dient, werden Tiere eingesperrt, in ihrer Bewegungsfreiheit begrenzt und schließlich getötet. Das ist moralisch falsch.
+
+  (1) Selbst in sogenannter artgerechter Tierhaltung, die nur der Herstellung tierischer Produkte (wie Milch und Eier) dient, werden Tiere eingesperrt, in ihrer Bewegungsfreiheit begrenzt und schließlich getötet.
+  (2) Es ist moralisch unzulässig, Tiere einzusperren, in ihrer Bewegungsfreiheit zu begrenzen und schließlich zu töten.
+  (3) Wenn selbst sogenannte artgerechte Tierhaltung unzulässig ist, dann ist es jede Form von Tierhaltung.
+  (4) Tierprodukte zu konsumieren wäre höchstens dann zulässig, wenn es eine zulässige Form der Tierhaltung gäbe.
+  ----
+  (5) [Strikt-Vegan]
+
+<Tierleid unbedingt vermeiden>: Als Konsument kann man nie ganz sicher sein, unter welchen Bedingungen die Tiere leben, deren Produkte man zu kaufen gedenkt. Besser man kauft und isst daher gar keine tierischen Produkte.
+
+  (1) Als Konsument kann man nie ganz sicher sein, ob die Tiere, deren Produkte man zu kaufen gedenkt, unter qualvollen Bedingungen leben oder nicht.
+  (2) Man sollte keinesfalls Produkte von Tieren kaufen, die unter qualvollen Bedingungen leben.
+  (3) Wenn es möglich ist, dass eine Handlung unzulässig ist, sollte man sie (besser) nicht ausführen.
+  ----
+  (4) [Strikt-Vegan]
+
+
+### Welternährung-Erwägungen
+
+<Weltbevölkerungs-Argument-1>: Eine wachsende Weltbevölkerung von bald mehr als 9 Milliarden Menschen kann nur auf nachhaltige Weise ernährt werden, wenn der Fleischkonsum global gesehen drastisch reduziert wird. Dazu sollte man selbst beitragen und weniger Fleisch essen.
+
+  (1) Eine wachsende Weltbevölkerung von bald mehr als 9 Milliarden Menschen kann nur auf nachhaltige Weise ernährt werden, wenn der globale Fleischkonsum drastisch reduziert wird.
+  (2) [Weltbevölkerung ernähren]: Es ist zwingend geboten, eine wachsende Weltbevölkerung von bald mehr als 9 Milliarden Menschen auf nachhaltige Weise zu ernähren.
+  ----
+  (3) Es ist zwingend geboten, dass der globale Fleischkonsum drastisch reduziert wird.
+  (4) Wenn es geboten ist, dass global viel weniger Fleisch konsumiert wird, dann sollte man den Konsum von Fleisch möglichst reduzieren.
+    - <Einzelne-unerheblich-Einwand>: Ob ein Einzelner Fleisch isst oder nicht, hat keinen Einfluss auf das Problem der Welternährung. Und nur dann wären Handlungsänderungen geboten.
+  ----
+  (5) [Weniger-Fleisch]
+
+
+<Weltbevölkerungs-Argument-2>: Eine wachsende Weltbevölkerung von bald mehr als 9 Milliarden Menschen kann nur auf nachhaltige Weise ernährt werden, wenn der Fleischkonsum global gesehen drastisch reduziert wird. Besser man verzichtet ganz darauf.
+
+  (1) Eine wachsende Weltbevölkerung von bald mehr als 9 Milliarden Menschen kann nur auf nachhaltige Weise ernährt werden, wenn der globale Fleischkonsum drastisch reduziert wird.
+  (2) [Weltbevölkerung ernähren]: Es ist zwingend geboten, eine wachsende Weltbevölkerung von bald mehr als 9 Milliarden Menschen auf nachhaltige Weise zu ernähren.
+  (3) Moralisch gesehen das Beste ist es, seinen eigenen Beitrag zu einer Gesamtheit, die insgesamt reduziert werden sollte, gänzlich zu vermeiden.
+    -  <Einzelne-unerheblich-Einwand>: Ob ein Einzelner Fleisch isst oder nicht, hat keinen Einfluss auf das Problem der Welternährung. Und nur dann wären Handlungsänderungen geboten.
+  ----
+  (4) Es ist moralisch gesehen das Beste, gar kein Fleisch mehr zu konsumieren.
+  (5) Das moralisch Beste sollte man tun.
+  ----
+  (6) [Strikt-Veggie]
+
+
+
+### Autonomie-Erwägungen
+
+[Alles-Esser]
+  + <Essen ist Privatsache>: Jeder bestimmt selbst, was er/sie isst. Deshalb darf jeder essen, was er/sie will.
+  + <Moralismus-Vorwurf>: Befürworter vegetarischer oder veganer Ernährung stellen moralisch völlig überzogene Forderungen. Deshalb darf jeder essen, was er/sie will.
+  + <Gegen Bevormundung>: Essverbote sind Bevormundungsversuche von Gutmenschen, sonst nichts. Denen sollte man sich nicht beugen: Jeder darf essen, was er/sie will.
+
+Die Argumente im Detail.
+
+<Essen ist Privatsache>
+
+  (1) Jeder bestimmt selbst, was er/sie isst.
+  (2) Wenn jeder selbst bestimmt, ob er eine bestimmte Handlung ausführt oder unterlässt, dann ist es zulässig, sie auszuführen oder zu unterlassen.
+  ----
+  (3) [Alles-Esser]: Jede/r darf essen, was er/sie will.
+
+<Moralismus-Vorwurf>
+
+  (1) Befürworter vegetarischer oder veganer Ernährung stellen moralisch völlig überzogene Forderungen.
+  (2) Wenn jemand, der moralisch völlig überzogene Forderungen stellt, behauptet, eine Handlung sei unzulässig, dann ist sie zulässig.
+  ----
+  (3) [Alles-Esser]: Jede/r darf essen, was er/sie will.
+
+<Gegen Bevormundung>
+
+  (1) Essverbote sind Bevormundungsversuche von Gutmenschen, sonst nichts.
+  (2) Bevormundungsversuchen von Gutmenschen sollte man sich nicht beugen: sie besitzen keine Geltung.
+  ----
+  (3) [Alles-Esser]: Jede/r darf essen, was er/sie will.
