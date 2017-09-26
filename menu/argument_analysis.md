@@ -64,7 +64,7 @@ We distinguish the following *kinds* of arguments:
 These categories are used to group the different arguments. The following *argument map* provides an overview of all the arguments of the debate.
 
 <!--Maybe we use a slide show, here, or an animated GIF?-->
-![Veggie Debate Argument Map](menu/images/veggie_debate.png)
+* [Veggie Debate Argument Map](menu/images/veggie_debate.pdf)
 
 The red and green arrows indicate relations of support and attack between the various arguments and theses. Further information on how to read an argument map can be found [here](http://www.argunet.org/2013/04/03/so-what-exactly-is-an-argument-map/).
 
