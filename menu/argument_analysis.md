@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Argument Analysis
+title: "Argument Analysis"
+author: "Gregor Betz"
 ---
 
 <!--
@@ -9,32 +10,30 @@ title: Argument Analysis
  -->
 
 
-# Argument Analysis
-
-The OPMAP installation is based on an argumentative analysis of the Veggie Debate. By completing [the survey](/link_to_survey_chapter), you actually judge different arguments that have been advanced in the debate. The argumentative analysis is later used to [compute the degree](/link_to_coherence_chapter) to which your opinion coheres with the opinions of other users.
+The current OPMAP installation at ZKM (Karlsruhe, Germany) is based on an argumentative analysis of the Veggie Debate. By completing the survey<!-- TODO: (/menu/survey_chapter)-->, you actually judge different arguments that have been advanced in the debate. The argumentative analysis is later used to [compute the degree]({{ site.baseurl }}{% link menu/coherence_values.md %}) to which your opinion coheres with the opinions of other users.
 
 This document introduces the argumentative analysis of the Veggie Debate and the technical tools we've employed to carry it out.
 
 ## The Main Theses of the Veggie Debate
 
-In our interpretation, the Veggie Debate is essentially a debate about the following core claims: 
+In our interpretation, the Veggie Debate is essentially a debate about the following core claims:
 
 ```
-[Meat-OK]: There exist meat and animal products 
+[Meat-OK]: There exist meat and animal products
 which one is allowed to eat.
 
-[Eat-what-you-want]: One may eat meat and other 
+[Eat-what-you-want]: One may eat meat and other
 animal products of any kind.
 
-[No-mass-farming]: One must not eat meat produced 
+[No-mass-farming]: One must not eat meat produced
 in modern mass farming facilities.
 
 [Strict-veggie]: One must not eat meat at all.
 
-[Strict-vegan]: One must not eat animal products 
+[Strict-vegan]: One must not eat animal products
 at all.
 
-[Less-meat]: One should reduce the consumption 
+[Less-meat]: One should reduce the consumption
 of meat.
 
 [Less-animal]: One should reduce the consumption
@@ -48,9 +47,9 @@ The different logical relations between the core claims are encoded in our argum
 
 ## The Veggie Debate Argument Map
 
-The argumentative analysis first and foremost clarifies the various pros and cons of the Veggie Debate. These pro and con reasons are reconstructed as arguments for or against the different core claims of the debate. 
+The argumentative analysis first and foremost clarifies the various pros and cons of the Veggie Debate. These pro and con reasons are reconstructed as arguments for or against the different core claims of the debate.
 
-We distinguish the following kinds of arguments:
+We distinguish the following *kinds* of arguments:
 
 - Culinary Considerations
 - Health Considerations
@@ -62,10 +61,10 @@ We distinguish the following kinds of arguments:
 - World Nutrition Considerations
 - Arguments from Personal Autonomy
 
-These categories are used to group the different arguments. The following *argument map* provides an overview of all the arguments of the debate. 
+These categories are used to group the different arguments. The following *argument map* provides an overview of all the arguments of the debate.
 
 <!--Maybe we use a slide show, here, or an animated GIF?-->
-![Veggie Debate Argument Map](images/veggie_debate.pdf)
+![Veggie Debate Argument Map]({{ site.baseurl }}{% link menu/images/veggie_debate.pdf %})
 
 The red and green arrows indicate relations of support and attack between the various arguments and theses. Further information on how to read an argument map can be found [here](http://www.argunet.org/2013/04/03/so-what-exactly-is-an-argument-map/).
 
@@ -83,24 +82,24 @@ Conclusion
 So, for example, the argument for `[No-mass-farming]` which stresses the suffering of animals in mass-farming facilities is analysed as:
 
 ```
-<Animal suffering>: Animal rights are flagrantly 
+<Animal suffering>: Animal rights are flagrantly
 violated in modern mass-farming facilities.
 
-(1) Animal rights are flagrantly violated in modern 
-mass-farming facilities.
-(2) By eating food that has been produced in conventional 
-ways, esp. through mass-farming techniques, one 
-supports the modern mass-farming industry.
-(3) One must not support an industry which is responsible
-for systematic violations of animal rights.
-----
-(4) [No mass farming]: One must not eat meat produced 
-in modern mass farming facilities.
+  (1) Animal rights are flagrantly violated in modern
+  mass-farming facilities.
+  (2) By eating food that has been produced in conventional
+  ways, esp. through mass-farming techniques, one
+  supports the modern mass-farming industry.
+  (3) One must not support an industry which is responsible
+  for systematic violations of animal rights.
+  ----
+  (4) [No mass farming]: One must not eat meat produced
+  in modern mass farming facilities.
 ```
 
 Here, `(1)`-`(3)` serve as premisses of the argument `<Animal suffering>` with conclusion `(4)`.
 
-The different considerations of the debate are reconstructed as *valid* arguments. Valid arguments are "complete" in the following sense: If one accepts all premisses, one has to accept the conclusion. We say: the arguments define inferential relations between the various statement which figure in the debate.
+The different considerations of the debate are reconstructed as *valid* arguments. Valid arguments are "complete" in the following sense: If one accepts all premisses, one has to accept the conclusion. We say: the arguments define inferential relations between the various statements which figure in the debate.
 
 (Who "forces" you to accept the conclusion if you accept the premisses? That's our language. For example, you cannot consistently say both that 'Ann is ill *and* Bob is ill' and that 'Bob is *not* ill' -- unless you use the words "and" or "not" in a very different way than we usually do.)
 
@@ -110,27 +109,16 @@ The different considerations of the debate are reconstructed as *valid* argument
 
 We're using the newly developed Argdown Technology to carry out the argumentative analysis.
 
-- http://christianvoigt.github.io/argdown/
-- https://github.com/christianvoigt/argdown/
+- [Argdown Online Editor](http://christianvoigt.github.io/argdown/)
+- [Argdown Git Repository](https://github.com/christianvoigt/argdown/)
 
-Argdown is basically a syntax, i.e., a set of conventions for structuring and organizing a text document, which allows you to code arguments in a standardized way. The core claims and the argument `<Animal suffering>` from above are all formatted in accordance with Argdown conventions.
+Argdown is basically a syntax, i.e., a set of conventions for structuring and organizing a text document. It allows you to code arguments in a standardized way. The core claims and the argument `<Animal suffering>` from above are all formatted in accordance with Argdown conventions.
 
-Argdown-documents can then be read by different programs to automatically generate argument maps or to carry out advanced computations on the argumentative structure.
+Argdown-documents can be read by different programs, which automatically generate argument maps or carry out advanced computations on the argumentative structure.
 
 
 ## Additional Resources
 
-- veggie_deabte.argdown -- The complete reconstruction of the Veggie Debate, as a single Argdown-file.
-- http://www.argunet.org -- A blog on argument mapping.
-- http://philosophy.hku.hk/think/ -- Free online tutorials and resources on argument analysis.
-
-
-
-
-
-
-
-
-
-
-
+- [veggie_debate.argdown]({{ site.baseurl }}{% link assets/docs/veggie_debate.argdown %}) -- The complete reconstruction of the Veggie Debate, as a single Argdown-file.
+- [www.argunet.org](http://www.argunet.org) -- A blog on argument mapping.
+- [Critical Thinking Web](http://philosophy.hku.hk/think/) -- Free online tutorials and resources on argument analysis.
