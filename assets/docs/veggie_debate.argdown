@@ -78,12 +78,6 @@ Visualize relations between central theses as chord diagram
 
 Die folgenden vier kulinarischen Argumente sprechen dafür, dass es zulässig ist, Fleisch zu essen, oder, mit anderen Worten, sprechen gegen eine rein vegetarische Küche.
 
-[Fleisch-OK]
-  + <Fleischküche ist Kulturerbe>
-  + <Genusserlebnis-Argument>
-  + <Argument aus der Vielfalt>
-  + <Vegetarisch kochen schwierig>
-
 Die Argumente im Einzelnen.
 
 <Fleischküche ist Kulturerbe>: Der Verzicht auf Fleisch und/oder tierische Produkte würde das Ende einer jahrundertealten, kulturellen Tradition -- der Kochkunst -- bedeuten.
@@ -130,11 +124,6 @@ Die Argumente im Einzelnen.
 ### Gesundheitliche Erwägungen
 
 Drei Argumente sprechen für Fleischkonsum.
-
-[Fleisch-OK]
-  + <Vitalitäts-Argument>
-  + <Ernährungsmangel-Einwand>
-  + <Gesund kochen schwierig>
 
 Die Argumente im Detail.
 
@@ -231,7 +220,6 @@ Gegen Bio-Fleisch wird anchmal so argumentiert:
   - <Bio nur für Reiche>: Bio-Produkte, insbesondere Tierprodukte aus nachhaltiger Landwirtschaft können sich viele Personen nicht leisten. Bio ist nur was für Reiche.
     - <Ernährungsumstellung zumutbar>: Steigende Ernährungskosten sind nicht inakzeptabel, das es zumutbar und realistisch ist, dass Haushalte ihren Speiseplan umstellen (und z.B. weniger Fleisch essen).
       - <Fleischverzicht unzumutbar>: Wenn jeder essen darf, was er will, dann ist ein Fleischverzicht unzumutbar.
-        + [Alles-Esser]
 
 
 Die Argumente im Detail:
@@ -460,10 +448,11 @@ Es wird in allen drei Argumenten unterstellt.
 
 ### Autonomie-Erwägungen
 
-[Alles-Esser]
-  + <Essen ist Privatsache>: Jeder bestimmt selbst, was er/sie isst. Deshalb darf jeder essen, was er/sie will.
-  + <Moralismus-Vorwurf>: Befürworter vegetarischer oder veganer Ernährung stellen moralisch völlig überzogene Forderungen. Deshalb darf jeder essen, was er/sie will.
-  + <Gegen Bevormundung>: Essverbote sind Bevormundungsversuche von Gutmenschen, sonst nichts. Denen sollte man sich nicht beugen: Jeder darf essen, was er/sie will.
+<Essen ist Privatsache>: Jeder bestimmt selbst, was er/sie isst. Deshalb darf jeder essen, was er/sie will.
+
+<Moralismus-Vorwurf>: Befürworter vegetarischer oder veganer Ernährung stellen moralisch völlig überzogene Forderungen. Deshalb darf jeder essen, was er/sie will.
+
+<Gegen Bevormundung>: Essverbote sind Bevormundungsversuche von Gutmenschen, sonst nichts. Denen sollte man sich nicht beugen: Jeder darf essen, was er/sie will.
 
 Die Argumente im Detail.
 
