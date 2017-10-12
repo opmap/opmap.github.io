@@ -234,7 +234,7 @@ Die Argumente im Detail:
   (5) Wenn es nicht geboten ist, zugunsten von Bio-Fleisch auf konventionell erzeugtes Fleisch zu verzichten, dann ist es auch falsch, dass man Fleisch und tierische Produkte aus artgerechter, ökologischer Tierhaltung, aber auch nur solche, essen darf.
   ----
   (6) Es ist falsch, dass man Fleisch und tierische Produkte aus artgerechter, ökologischer Tierhaltung, aber auch nur solche, essen darf.
-    -> [Bio-Fleisch]
+    <!-- -> [Bio-Fleisch] -->
 
 <Ernährungsumstellung zumutbar>
 
@@ -243,7 +243,7 @@ Die Argumente im Detail:
   (3) Führt A dann nicht zu B, wenn C, und ist C ferner zumutbar und realistisch, dann führt A nicht (zwangsläufig) zu B.
   ----
   (4) Es ist nicht der Fall, dass der Verzicht auf konventionell erzeugtes Fleisch zugunsten von Bio-Fleisch für viele Haushalte die Nahrungsmittelkosten derart in die Höhe treiben würde, dass sie sich ihre bisherige Ernährung nicht mehr leisten könnten.
-    -> <Bio nur für Reiche>
+    <!-- -> <Bio nur für Reiche> -->
     <!--[1]-->
 
 <Fleischverzicht unzumutbar>
@@ -252,7 +252,7 @@ Die Argumente im Detail:
   (2) Wenn man Fleisch und Tierprodukte beliebiger Art (und Menge) essen darf, dann ist es unzumutbar, darauf zu verzichten.
   ----
   (3) Es ist unzumutbar, dass Haushalte ihren Speiseplan anpassen (und zum Beispiel weniger Fleisch essen).
-    -> <Ernährungsumstellung zumutbar>
+    <!-- -> <Ernährungsumstellung zumutbar> -->
     <!--[2]-->
 
 
