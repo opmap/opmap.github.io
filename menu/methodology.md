@@ -8,7 +8,7 @@ OpMap is a tool that facilitates sense-making for large-scale debates.
 
 OpMap contains several major components. First a debate is `reconstructed`, i.e. its arguments are analyzed and formalized. An illustrative reconstruction of the veggie-debate is presented [`here`]({{ site.baseurl }}{% link menu/argument_analysis.md %}).
 
-The logical analysis of the debate is used to construct a structured survey. Complex opinion on the debate's topic can be elicited by means of this survey.
+The logical analysis of the debate is used to construct a structured survey. Complex opinions on the debate's topic can be elicited by means of this survey.
 
 The collected opinion data is then translated into a so-called `opinion graph`, the `nodes` of this graph are the opinions held by the participants of the survey, and the weighted `edges` specify how closely related these opinions are. We use [`degree of mutual coherence`]({{ site.baseurl }}{% link menu/coherence_values.md %}) to calculated how related two opinions are.
 
