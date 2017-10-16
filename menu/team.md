@@ -3,7 +3,10 @@ layout: page
 title: Team
 ---
 
-### Gregor Betz
+<p align="center">
+  <img src="images/Gregor.png" width="200"><br><br>
+  <b>Gregor Betz</b>
+</p>
 
 I'm a philosopher with interests in argumentation, formal models of reasoning, and philosophy of science.
 
@@ -28,9 +31,12 @@ I grew up in Tbilisi, Georgia. I studied and obtained my PhD from National Techn
 
 ***
 
-### Sophie v. Schmettow
+<p align="center">
+  <img src="images/Sophie.png" width="200"><br><br>
+  <b>Sophie v. Schmettow</b>
+</p>
 
-(*1992 in Aachen, Germany (DE), lives and works in Karlsruhe, Germany (DE))
+I'm a computer science student at Karlsruhe Institute of Technology. With this project I want to conclude my Master's Degree. ... 
 
 ***
 
