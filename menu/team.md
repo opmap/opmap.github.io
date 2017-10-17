@@ -36,7 +36,9 @@ I grew up in Tbilisi, Georgia. I studied and obtained my PhD from National Techn
   <b>Sophie v. Schmettow</b>
 </p>
 
-I'm a computer science student at Karlsruhe Institute of Technology. With this project I want to conclude my Master's Degree. ... 
+I'm a computer science student with a background in cognitive science. 
+
+I'm interested in finding ways to make meaningful information out of data and to efficiently navigate through large amounts of human knowlegde by means of network analyses and visualisation techniques. Therefore I am happy for the chance to conclude my Master's degree with this interdisciplinary project. 
 
 ***
 
