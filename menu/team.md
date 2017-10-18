@@ -16,7 +16,7 @@ I've been studying in Berlin, Paris and London and working in Berlin and Stuttga
 
 ### Michael Hamann
 
-(*1988 in Mühlacker, Germany (DE), lives and works in Karlsruhe, Germany (DE))
+I work as a doctoral researcher at the Karlsruhe Institute of Technology at the Institute of Theoretical Informatics. I work on graph algorithms, in particular finding clusters in graphs. My main focus is to make algorithms fast such that they can work with huge amounts of data. Apart from that I'm also very interested in practical applications of such algorithms like in this project.
 
 ***
 

@@ -4,29 +4,34 @@ title: "Methodology"
 author: "Tamara Mchedlidze"
 ---
 
-OpMap is a tool that facilitates sense-making for large-scale debates.
+OpMAP is a tool that facilitates sense-making for large-scale debates. It contains several major components.
 
-OpMap contains several major components. First a debate is `reconstructed`, i.e. its arguments are analyzed and formalized. An illustrative reconstruction of the veggie-debate is presented [`here`]({{ site.baseurl }}{% link menu/argument_analysis.md %}).
+* First, the debate is *reconstructed*, i.e. its arguments are analyzed and formalized. An illustrative reconstruction of the Veggie-debate is presented [here]({{ site.baseurl }}{% link menu/argument_analysis.md %}).
 
-The logical analysis of the debate is used to construct a structured survey. Complex opinions on the debate's topic can be elicited by means of this survey.
+* Second, the logical analysis of the debate is used to construct a structured [survey]({{ site.baseurl }}{% link menu/survey.md %}). Complex opinions on the debate's topic can be elicited by means of this survey.
 
-The collected opinion data is then translated into a so-called `opinion graph`, the `nodes` of this graph are the opinions held by the participants of the survey, and the weighted `edges` specify how closely related these opinions are. We use [`degree of mutual coherence`]({{ site.baseurl }}{% link menu/coherence_values.md %}) to calculated how related two opinions are.
+* Third, the collected opinion data is translated into a so-called [opinion graph]({{ site.baseurl }}{% link menu/opinion_graph.md %}). The *nodes* of this graph are the opinions held by the participants of the survey, and the *weighted edges* specify how closely related these opinions are. We use [degree of mutual coherence]({{ site.baseurl }}{% link menu/coherence_values.md %}) to calculate how related two opinions are.
 
-OpMap then analyzes the resulting weighted graph by applying [`filtering and clustering methods`]({{ site.baseurl }}{% link menu/filtering_clustering.md %}). The static map of the debate is constructed as described [`here`]({{ site.baseurl }}{% link menu/visualization.md %}).
+* Then, the resulting weighted graph is analyzed by applying [clustering and filtering methods]({{ site.baseurl }}{% link menu/filtering_clustering.md %}). 
 
-OpMap allows for dynamic updates of the map. Thus, as a new data record is obtained through the survey, the opinion graph, the clustering and the visualization are updated as described [`here`]({{ site.baseurl }}{% link menu/dynamics.md %}).
+* The initial map of the debate is then constructed as described [here]({{ site.baseurl }}{% link menu/visualization.md %}).
+
+* Finally, OpMAP allows for dynamic updates of the map: As a new data record is obtained through the survey, the opinion graph, the clustering and the visualization are updated as described [here]({{ site.baseurl }}{% link menu/dynamics.md %}).
 
 
-To summarize, the components of OpMap are:
+To summarize, the steps to generate a dynamic opinion map are:
 
-* [`Debate reconstruction`]({{ site.baseurl }}{% link menu/argument_analysis.md %})
+* [1. Debate reconstruction]({{ site.baseurl }}{% link menu/argument_analysis.md %})
 
-* Opinion elicitation
+* [2. Obtaining an opinion sample]({{ site.baseurl }}{% link menu/survey.md %})
 
-* [`Computation of the Degree of Mutual Coherence`]({{ site.baseurl }}{% link menu/coherence_values.md %})
+* [3. Creating a graph from the opinion sample]({{ site.baseurl }}{% link menu/opinion_graph.md %})
 
-* [`Filtering and Clustering`]({{ site.baseurl }}{% link menu/filtering_clustering.md %})
+* [4. Computation of the Degree of Mutual Coherence]({{ site.baseurl }}{% link menu/coherence_values.md %})
 
-* [`Visualization`]({{ site.baseurl }}{% link menu/visualization.md %})
+* [5. Filtering and clustering]({{ site.baseurl }}{% link menu/filtering_clustering.md %})
 
-* [`Dynamics`]({{ site.baseurl }}{% link menu/dynamics.md %})
+* [6. Visualization]({{ site.baseurl }}{% link menu/visualization.md %})
+
+* [7. Adding dynamics]({{ site.baseurl }}{% link menu/dynamics.md %})
+ 
