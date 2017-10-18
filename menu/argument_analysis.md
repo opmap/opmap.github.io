@@ -126,4 +126,4 @@ Argdown-documents can be read by different programs, which automatically generat
 
 ## Next Step
 
-When creating an opinion map, the logical reconstruction of the debate is then used to [construct a survey]({{ site.baseurl }}{% link menu/survey.md %}).
+Constructing a [survey]({{ site.baseurl }}{% link menu/survey.md %}) from the logical reconstruction

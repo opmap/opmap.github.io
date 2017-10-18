@@ -59,3 +59,7 @@ What we need is a theory that captures all these different cases and allows us, 
 - mutualcoherence.nb -- A Mathematica Notebook which formally defines and applies our measure of mutual coherence.
 - mutualcoherence.pdf -- PDF version.
 -->
+
+## Next Step
+
+[Filtering and clustering]({{ site.baseurl }}{% link menu/filtering_clustering.md %})

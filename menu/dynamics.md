@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "OpMap Dynamic"
+title: "Dynamic Updates"
 author: "Tamara Mchedlidze"
 ---
 
-lorum impsum
+This article will be published shortly. 

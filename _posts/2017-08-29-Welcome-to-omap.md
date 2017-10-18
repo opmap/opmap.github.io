@@ -21,6 +21,7 @@ OpMAP can be applied to a debate and the corresponding survey on any topic of in
 that represent the same general eating behaviour, the bigger the area of the corresponding country. The font size of the labels is adjusted according to some
 notion of importance, for example the number of "inhabitants". -->
 
+Our work was inspired by [GMap](http://yifanhu.net/MAPS/index.html), a visualisation algorithm and tool by Stephen Kouborov and colleagues from the University of Arizona.
 
 The scientific methodology behind the construction of the opinion map is described [here]({{ site.baseurl }}{% link menu/methodology.md %}). Check [veggie-debate]({{ site.baseurl }}{% link menu/veggie-debate.md %}) for the description of the opinion map on nutrition behaviors.
 

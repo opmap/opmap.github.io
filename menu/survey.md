@@ -36,4 +36,4 @@ On the next page, arguments that are *logically consistent* with the selected op
 
 ## Next Step
 
-After the opinion sample is obtained, an [opinion graph]({{ site.baseurl }}{% link menu/opinion_graph.md %}) is created from it.
+Creating an [opinion graph]({{ site.baseurl }}{% link menu/opinion_graph.md %}) from the opinion sample

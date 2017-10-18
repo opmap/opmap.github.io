@@ -56,6 +56,13 @@ Furthermore, we applied **local edge filtering**. For every node $$v$$ the $$deg
 
 ## Clustering
 
+We then applied the [Infomap](http://www.mapequation.org/) clustering algorithm to the filtered country-graph. We used the free graph visualisation software [Gephi](https://gephi.org/) to test our clustering. The image below shows a visualisation rendered in Gephi. The *layout*, i.e. the arrangement of vertices and edges in the 2D plane was calculated with Gephi's inbuilt layouting algorithm *Force Atlas 2*. The colors are assigned according to the Infomap clustering.
 <p align="center">
   <img src="images/initial_graph.svg">
 </p>
+As can be seen, the layout and the clustering algorithm are compatible, which is vital in order for the countries to be mostly connected. The vertex radii in this drawing are proportional to the vertex weight. The labels show the intially selected option on the survey. Vegans and vegetarians each form their own clusters. The majority of participants selected “restriced meat consumption”. These, as well as the “omnivore”-opinions where subdivided into two clusters by the algorithm. 
+We performed a semantic analysis of these clusters by hand, by investigating which statements where most frequently rejected and which statements where most frequently accepted. The results are described [here]({{ site.github.url }}/menu/veggie-debate.html)
+
+## Next Step
+
+Creating the [graph drawing]({{ site.baseurl }}{% link menu/visualization.md %})
