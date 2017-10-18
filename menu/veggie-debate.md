@@ -4,8 +4,15 @@ title: "Veggie-Debate: debate on nutrition behaviour"
 author: "Tamara Mchedlidze"
 ---
 
+<p align="center">
+  <img src="images/OpMAP.png">
+</p>
 
 The analysis of the data of the debate on nutrition behaviour reveals six major countries.
+
+<p align="center">
+  <img src="images/statistics.png" width="400px">
+</p>
 
 ### Ethical Gourmania
 

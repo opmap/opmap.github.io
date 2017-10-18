@@ -10,7 +10,7 @@ author: "Gregor Betz"
  -->
 
 
-The current OPMAP installation at ZKM (Karlsruhe, Germany) is based on an argumentative analysis of the Veggie Debate. By completing the survey<!-- TODO: (/menu/survey_chapter)-->, you actually judge different arguments that have been advanced in the debate. The argumentative analysis is later used to [compute the degree]({{ site.baseurl }}{% link menu/coherence_values.md %}) to which your opinion coheres with the opinions of other users.
+The current OpMAP installation at [ZKM (Karlsruhe, Germany)](http://zkm.de/event/2017/10/open-codes) is based on an argumentative analysis of the Veggie Debate. By completing the [survey]({{ site.baseurl }}{% link menu/survey.md %}), you actually judge different arguments that have been advanced in the debate. The argumentative analysis is later used to [compute the degree]({{ site.baseurl }}{% link menu/coherence_values.md %}) to which your opinion coheres with the opinions of other users.
 
 This document introduces the argumentative analysis of the Veggie Debate and the technical tools we've employed to carry it out.
 
@@ -119,6 +119,11 @@ Argdown-documents can be read by different programs, which automatically generat
 
 ## Additional Resources
 
-- [veggie_debate.argdown]({{ site.baseurl }}{% link assets/docs/veggie_debate.argdown %}) -- The complete reconstruction of the Veggie Debate, as a single Argdown-file.
+- [veggie_debate.argdown]({{ site.baseurl }}{% link assets/docs/veggie_debate.argdown %}) -- The complete reconstruction of the Veggie Debate, as a single Argdown-file (german).
 - [www.argunet.org](http://www.argunet.org) -- A blog on argument mapping.
 - [Critical Thinking Web](http://philosophy.hku.hk/think/) -- Free online tutorials and resources on argument analysis.
+
+
+## Next Step
+
+When creating an opinion map, the logical reconstruction of the debate is then used to [construct a survey]({{ site.baseurl }}{% link menu/survey.md %}).
