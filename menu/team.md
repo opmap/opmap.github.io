@@ -25,7 +25,7 @@ I've been studying in Berlin, Paris and London and working in Berlin and Stuttga
   <b>Tamara Mchedlidze</b>
 </p>
 
-I am a **computer scientist**. I am passionate about **algorithms**, **graphs** and **visualizations**.  I am also a mathematician, so I **prove** facts about the algorithms I develop. Trying to keep in touch with reality though, I investigate how humans read and enjoy graph visualisations.
+I am a **computer scientist**. I am passionate about **algorithms**, **graphs** and **visualizations**.  I am a mathematician by training, thus I am used to **prove** facts about the algorithms I develop. Trying to keep in touch with reality though, I investigate how humans read and enjoy graph visualisations.
 
 I grew up in Tbilisi, Georgia. I studied and obtained my PhD from National Technical University of Athens, Greece.  Since 2012 I live  with my husband and our little son in Karlsruhe, Germany. I work as a postdoctoral researcher at Karlsruhe Institute of Technology at the Institute of Theoretical Informatics.
 
