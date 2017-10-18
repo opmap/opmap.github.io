@@ -14,10 +14,9 @@ Hence an opinion looks for example like this: `{1, !2, 3 , 5 , !10 ...}` where `
 The vertices in our graph are all sets like this one.
 In order to specify the graph's edges we need some measure of *similarity* or *coherence* between two opinions, i.e. how well two opinions “hang together”. Various metrics to quantify this intuitive notion have been proposed. We use the [degree of mutual coherence]({{ site.baseurl }}{% link menu/coherence_values.md %}). For all pairs of opinions, or vertices, the mutual coherence value is calculated. These values are real numbers in the range $$[-1,1]$$. Only if the $$Coherence(A,B)$$ of two opinions $$A$$ and $$B$$ passes a certain threshold, the two corresponding vertices are linked by an edge, which is *weighted* by that value. 
 
-In it's full generality, the graph is edge-weighted and vertex-weighted. The vertex weight is a natural number that corresponds to the number of times an opinion has been stated. 
+In it's full generality, the graph is edge-weighted and vertex-weighted. The vertex-weights are explained in the article on [filtering and clustering]({{ site.baseurl }}{% link menu/filtering_clustering.md %}).
 
 Now in order to obtain a map representation from the input graph, several steps are necessary. 
-
 
 One step is to *embed* the graph in the 2D plane. Graphs are commonly visualized such that vertices are represented by dots and edges are represented
 as lines, as it is the case in the figure below.
