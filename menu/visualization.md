@@ -24,11 +24,11 @@ where $$u$$ and $$v$$ are the vertices connected by the edge, so just the invers
 
 **Charge**: Analogous to electrical charge, this value is set for every vertex. A negative value results in repulsion, while a positive value results in node attraction. We set it to
 <center>$$-10\cdot w(v)^2 \cdot density_C$$</center>
-where $$density_C$$ is given by the number of edges within the nodes cluster divided by the number of vertices within the cluster. Recall that vertices with higher weight represent a greater number of opinions. Therefore they should take up a larger area on the map. This can be reached by giving them a greater negative charge, such that surrounding nodes are pushed apart. Also, very dense clusters with many nodes should not be pulled together too tightly, as countries with more nodes have to get a greater area. This is the charge is weighted by the cluster density. 
+where $$density_C$$ is given by the number of edges within the nodes cluster divided by the number of vertices within the cluster. Recall that vertices with higher weight represent a greater number of opinions. Therefore they should take up a larger area on the map. This can be reached by giving them a greater negative charge, such that surrounding nodes are pushed apart. Also, very dense clusters with many nodes should not be pulled together too tightly, as countries with more nodes have to get a greater area. To that end, the charge is weighted by the cluster density. 
 
 
 
-## Generation of Countries Boundaries
+## Drawing the Map on Top
 
 To actually create the map we use so-called **Voronoi diagrams**. These diagrams divide the 2D plane into regions based on the distance to points on that plane. In our case, the vertices in the drawing. For each vertex there is a corresponding region consisting of all points closer to that vertex than to any other. Finally, the regions corresponding to nodes of the same cluster are given the same colour and we obtain our countries by merging cells of the same colour.
 <p align="center">

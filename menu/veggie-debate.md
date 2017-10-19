@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Veggie-Debate: debate on nutrition behaviour"
+title: "Veggie-Debate: What should a good diet be like?"
 author: "Tamara Mchedlidze"
 ---
 

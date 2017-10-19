@@ -14,8 +14,8 @@ when we think about distance, we think about the length of the shortest straight
 
 Many graph clustering algorithms determine clusters based on the structure of the graph alone.
 However, to assign the cluster membership or “nationality” to all the nodes in our opinion-graph, we take the structure of the underlying opinion data into account.
-As an intermediate step, we construct another graph from our data. This graph is **not** the same as our opinion-graph, which will henceforth be referred to as the *country-graph*. This new graph, in contrast to the country-graph, is a *directed* graph. In the undirected country-graph, an edge is a set of $${u,v}$$ of two vertices. In the directed graph, an edge is an ordered pair. Typically, directed edges are visualized as arrows. The graph is constructed as follows:
-Two opinions, or vertices, $$u$$ and $$v$$ are connected by an edge $$e = (u,v)$$, if the statements of opinion $$v$$ are a subset of the statements of opinion $$u$$. A minimal example could look like this:
+As an intermediate step, we construct another graph from our data. This graph is **not** the same as our opinion-graph, which will henceforth be referred to as the *country-graph*. This new graph, in contrast to the country-graph, is a *directed* graph. In the undirected country-graph, an edge is a set $$e = \{u,v\}$$ of two vertices. In the directed graph, an edge is an ordered pair  $$e = (u,v)$$. Typically, directed edges are visualized as arrows. The graph is constructed as follows:
+Two opinions, or vertices, $$u$$ and $$v$$ are connected by an edge, if the statements of opinion $$v$$ are a subset of the statements of opinion $$u$$. A minimal example could look like this:
 <p align="center">
   <img src="images/dag.png" width="300">
 </p>
@@ -37,7 +37,7 @@ The opinions that are actually drawn on the map are only the isolated nodes and 
 
 The latter two node types are considered in the map in the form of vertex weights. By default, every opinion node has a weight of $$1.0$$. If it is a non-sink node, it's weight is distributed evenly among its *children*. Also, if the same opinion is stated multiple times, a weight of $$1.0$$ is added to the corresponding vertex each time (or respectively distributed among the children, if it is a non-sink opinion). 
 
-The sink nodes tend to be the most specific nodes, and the source nodes the most general ones. The source node in the image below is a highly general opinion, that is, most the participant suspended judgment with respect to almost every statement. 
+The sink nodes tend to be the most specific nodes, and the source nodes the most general ones. The source node in the image below is a highly general opinion, that is, which means that the participant suspended judgment with respect to almost every statement. 
 <p align="center">
   <img src="images/root.svg" width="300">
 </p>
@@ -46,9 +46,9 @@ The sink nodes tend to be the most specific nodes, and the source nodes the most
 
 ## Edge Filtering
 
-Initially, we collected 210 opinions, two of which where inconsistent. $$n$$ = 161 opinions where sink nodes in the DAG. We then proceeded to calculate the mutual coherence values for all pairs of opinions, yielding a *complete* graph (i.e. every vertex has an edge to every other vertex) with $$n \cdot\frac{n-1}{2} = 12880$$ edges. The edge values given by the degree of mutual coherence are real number in the range $$[-1,1]$$. However, most clustering and layouting algorithms can deal only with positive edge weights and clustering as applied here does not make sense in a complete graph since it is supposed to find a partition where the intracluster density is higher then the intercluster density. Furthermore, sparsification is necessary for reasons of performance.
+Initially, we collected 210 opinions, two of which where inconsistent. $$n$$ = 161 opinions where sink nodes in the DAG. We then proceeded to calculate the mutual coherence values for all pairs of opinions, yielding a *complete* graph (i.e. every vertex has an edge to every other vertex) with $$n \cdot\frac{n-1}{2} = 12880$$ edges. The edge values given by the degree of mutual coherence are real numbers in the range $$[-1,1]$$. However, most clustering and layouting algorithms can deal only with positive edge weights and clustering as applied here does not make sense in a complete graph since it is supposed to find a partition where the intracluster density is higher then the intercluster density. Furthermore, sparsification is necessary for reasons of performance.
 
-Therefore we first applied **global edge filtering** by adding a constant of 0.808 to every edge weight and discarding any edge with a weight that remained negative afterwards. A constant $$> 1.0$$ turns every edge weight positive, so the closter to $$0.0$$ the constant, the more edges are filtered out. The constant of 0.808 was used because with this value, just enough edges were retained for the graph to not decompose in connected components. 
+Therefore we first applied **global edge filtering** by adding a constant of 0.808 to every edge weight and discarding any edge with a weight that remained negative afterwards. A constant $$> 1.0$$ turns every edge weight positive, so the closer to $$0.0$$ the constant, the more edges are filtered out. The constant of 0.808 was used because with this value, just enough edges were retained for the graph to not decompose into connected components. 
 
 Furthermore, we applied **local edge filtering**. For every node $$v$$ the $$deg(v)^e$$ edges with the highest edge weights are marked. $$deg(v)$$ is the vertex *degree*, that is the number of edges incident to $$v$$. $$e$$ is a constant $$\in [0.0, 1.0]$$. This ensures, that for each node, at least one edge is marked. If $$e = 1.0$$, all edges are marked. Any edge that has been marked by at least one node is retained while ummarked edges are discarded.   
 
@@ -60,8 +60,8 @@ We then applied the [Infomap](http://www.mapequation.org/) clustering algorithm 
 <p align="center">
   <img src="images/initial_graph.svg">
 </p>
-As can be seen, the layout and the clustering algorithm are compatible, which is vital in order for the countries to be mostly connected. The vertex radii in this drawing are proportional to the vertex weight. The labels show the intially selected option on the survey. Vegans and vegetarians each form their own clusters. The majority of participants selected “restriced meat consumption”. These, as well as the “omnivore”-opinions where subdivided into two clusters by the algorithm. 
-We performed a semantic analysis of these clusters by hand, by investigating which statements where most frequently rejected and which statements where most frequently accepted. The results are described [here]({{ site.github.url }}/menu/veggie-debate.html)
+As can be seen, the layout and the clustering algorithm are compatible, which is vital in order for the countries to be mostly connected. The vertex radii in this drawing are proportional to the vertex weight. The labels show the initially selected option on the survey. Vegans and vegetarians each form their own clusters. The majority of participants selected “restriced meat consumption”. These, as well as the “omnivore”-opinions where subdivided into two clusters by the algorithm. 
+We performed a semantic analysis of these clusters by hand, by investigating which statements where most frequently rejected and which statements where most frequently accepted. The results are described [here]({{ site.github.url }}/menu/veggie-debate.html).
 
 ## Next Step
 
