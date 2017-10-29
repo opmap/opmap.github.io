@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,15 +41,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1041"
+     inkscape:window-width="1366"
+     inkscape:window-height="702"
      id="namedview12217"
      showgrid="false"
-     inkscape:zoom="0.94543525"
-     inkscape:cx="183.01573"
-     inkscape:cy="489.24648"
+     inkscape:zoom="1.8908705"
+     inkscape:cx="456.46136"
+     inkscape:cy="347.3698"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg7623" />
   <g
@@ -18940,9 +18940,9 @@
        y="172.72639"
        style="font-size:18px">STRICTLY VEGETARIAN</tspan></text>
   <rect
-     style="color:#000000;fill:#cdf1fa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.69999999000000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-opacity:1"
+     style="color:#000000;fill:#cdf1fa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.69999999;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      id="rect13003"
-     width="320.10834"
+     width="334.91632"
      height="20.19375"
      x="-92.277069"
      y="30.697906" />
@@ -18957,7 +18957,7 @@
        id="tspan12233"
        x="-88.395752"
        y="47.083355"
-       style="font-size:18px;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;-inkscape-font-specification:IM FELL Great Primer PRO">RESTRICTED MEAT CONSMPTION</tspan></text>
+       style="font-size:18px;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;-inkscape-font-specification:IM FELL Great Primer PRO">RESTRICTED MEAT CONSUMPTION</tspan></text>
   <rect
      style="color:#000000;fill:#cdf1fa;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.69999999;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      id="rect13003-2-3"

@@ -32,7 +32,7 @@ In our survey design, we first elicit the participant's core opinion by offering
 * Omnivore: Everybody can eat whatever they like.
 * None of the options
 
-On the next page, arguments that are *logically consistent* with the selected option are presented and the participant can indicate for each if (s)he agrees, rejects or is indifferent/has no information about the statement. The last option is the catch-all case where the full set of statements is presented. In case of some of the options, it is possible to give logically inconsistent opinions (for example if a participant agrees that meat consumption should be reduced as much as possible but disagrees that the consumption of animal products should be restriced.) These are not considered on the map. 
+On the next page, arguments that are *logically consistent* with the selected option are presented and the participant can indicate for each if (s)he agrees, rejects or is indifferent/has no information about the statement. The last option is the catch-all case where the full set of statements is presented. In case of some of the options, it is possible to give logically inconsistent opinions (for example if a participant agrees that meat consumption should be reduced as much as possible but disagrees that the consumption of animal products should be restricted.) These are not considered on the map. 
 
 ## Next Step
 
