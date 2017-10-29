@@ -42,7 +42,10 @@ I'm interested in finding ways to extract meaningful information out of data and
 
 ***
 
-### Christian Voigt
+<p align="center">
+  <img src="images/Christian.png" width="200"><br><br>
+  <b>Christian Voigt</b>
+</p>
 
 (*1979 in Hamburg, Germany (DE), lives and works in Karlsruhe, Germany (DE))
 
