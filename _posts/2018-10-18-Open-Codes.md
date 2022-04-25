@@ -14,9 +14,6 @@ using the iPad stand next to the projection and see themselves appearing on the 
 
 If you have any question regarding OpMAP, or you would like to apply this interactive visualization method to your survey data, please [contact us](mailto:t.mtsentlintze@uu.nl).
 
-<p align="center">
-  <img src="/web-page/assets/img/installation_opmap.jpg">
-</p>
 
 ![Impressions from the exhibition](installation_opmap.jpg)
 ![Here the visitors could enter their opinion by answering a number of questions](ipad_opmap.jpg)
