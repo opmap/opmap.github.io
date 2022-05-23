@@ -28,10 +28,11 @@ I grew up in Tbilisi, Georgia. I studied and obtained my PhD from National Techn
 ***
 
 
-### Past Team members
-Michael Hamann
-Sophie v. Schmettow
-Christian Voigt
+# Past Team members
+
+* Michael Hamann
+* Sophie v. Schmettow
+* Christian Voigt
 
 
 ***
